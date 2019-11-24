@@ -1,0 +1,25 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "login api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error no tests specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Vishwa",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^4.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "oracledb": "^4.0.1"
+  }
+}
